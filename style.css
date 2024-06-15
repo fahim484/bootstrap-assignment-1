@@ -1,68 +1,103 @@
 /* Global or Common CSS start */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body{
-
+body {
 }
 
 /* Variable with Global Scope: */
-:root{
-    --main-theme-color: #FE8C45;
-    --main-btn-color: #8A47F6;
+:root {
+  --main-theme-color: #fe8c45;
+  --main-btn-color: #8a47f6;
 }
 
 /* Global BTN */
 .global-btn {
-    background-color: var(--main-theme-color);
-    color: #FFFFFF;
-    border-radius: 90px;
-    font-size: 18px;
-    font-weight: 600;
-    padding: 18px 45px;
+  background-color: var(--main-theme-color);
+  color: #ffffff;
+  border-radius: 90px;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 18px 45px;
+  font-family: "Quicksand", sans-serif;
 }
 
-.global-color{
-    background-color: var(--main-btn-color);
+.global-color {
+  background-color: var(--main-btn-color);
 }
 /* Global or Common CSS end */
 
 /* Banner or Hero section CSS */
-.banner-left{
-    margin-left: 100px;
-    & h1{
-        font-family: "Raleway", sans-serif;
-        font-size: 74px;
-        font-weight: 900;
-        color: #111111;
-        & span{
-            color: var(--main-btn-color);
-        }
-        & hr{
-            border-color: var(--main-btn-color) !important;
-            border-radius: 70px;
-            width: 156px !important;
-            height: 25px;
-            background-color: var(--main-btn-color);
-        }
+.banner-left {
+  margin-left: 150px;
+  & h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 74px;
+    font-weight: 900;
+    color: #111111;
+    & span {
+      color: var(--main-btn-color);
     }
-    & p {
-        font-family: "Quicksand", sans-serif;
-        font-size: 18px;
-        font-weight: 400;
-        color: #333333;
+    & hr {
+      border-color: var(--main-btn-color) !important;
+      border-radius: 70px;
+      width: 156px !important;
+      height: 25px;
+      background-color: var(--main-btn-color);
     }
+  }
+  & p {
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333333;
+  }
 }
-.slider-indicators button {
+.slider-indicators {
+  margin-right: 180px;
+  & button {
     background-color: var(--main-btn-color);
     width: 20px !important;
     height: 20px !important;
     margin: 5px;
   }
+}
 
-  .slider-indicators button.active {
-    background-color: var(--main-btn-color);
+.slider-indicators button.active {
+  background-color: var(--main-btn-color);
+}
+
+/* About us section CSS */
+.about-right {
+  & h5 {
+    color: #111111;
+    font-size: 22px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    & hr {
+      border-color: var(--main-btn-color) !important;
+      width: 29px !important;
+      height: 0px;
+      background-color: var(--main-btn-color);
+    }
   }
+  & h3 {
+    font-family: "Raleway", sans-serif;
+    color: #111111;
+    font-size: 54px;
+    font-weight: 900;
+    line-height: 68px;
+    & span {
+      color: var(--main-btn-color);
+    }
+  }
+  & p {
+    font-size: 20px;
+    text-align: justify;
+    color: #333333;
+    font-family: "Quicksand", sans-serif;
+  }
+}
