@@ -29,6 +29,17 @@
       href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
       rel="stylesheet"
     />
+    <!-- Swiffy Slider Carousel Link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <!-- This is Navbar section start -->
@@ -36,7 +47,7 @@
       <div
         class="container-fluid px-md-5 mx-md-5 d-flex align-items-center justify-content-lg-around mt-4"
       >
-        <a class="navbar-brand " href="#"
+        <a class="navbar-brand" href="#"
           ><img src="./images/logoKiekeFotografie.png" alt=""
         /></a>
 
@@ -63,7 +74,7 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Contact Us</a>
             </li>
-            <button type="button" class="btn global-btn btn-warning" >
+            <button type="button" class="btn global-btn btn-warning">
               Get Started
             </button>
           </ul>
@@ -72,6 +83,78 @@
     </nav>
     <!-- This is Navbar section end -->
 
+    <!-- This is Banner or Hero section start -->
+    <section>
+      <div class="d-flex align-items-center  justify-content-between gap-lg-5">
+        <div class="banner-left">
+          <h1>
+            CAPTURING <br />
+            MOMENTS <span>IN</span> <br />
+            TIME <hr class="border d-inline-block w-25 border-primary border-5 opacity-100">
+          </h1>
+          <p class="mb-5">A Glimpse into the Past, a Snapshot of the Present.</p>
+          <button type="button" class="btn global-btn btn-warning">
+            Get Started
+          </button>
+        </div>
+        <div class="banner-right">
+          <!-- Swiffy Slider Carousel start -->
+          <div
+            class="swiffy-slider slider-item-show1 slider-item-reveal slider-item-snapstart slider-indicators-outside slider-indicators-round slider-indicators-highlight slider-nav-animation slider-nav-animation-fadein slider-item-first-visible"
+          >
+            <ul style="width: 900px;" class="slider-container py-5" id="slider2">
+              <li>
+                <div style="width: 713px" class="card shadow h-100">
+                  <div class="ratio ratio-1x1">
+                    <img
+                      src="./images/banner-baby-1.png"
+                      class="card-img-top rounded"
+                      loading="lazy"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div style="width: 713px" class="card shadow h-100">
+                  <div class="ratio ratio-1x1">
+                    <img
+                      src="./images/banner-baby-2.jpeg"
+                      class="card-img-top rounded"
+                      loading="lazy"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div style="width: 713px" class="card shadow h-100">
+                  <div class="ratio ratio-1x1">
+                    <img
+                      src="./images/banner-baby-3.jpeg"
+                      class="card-img-top rounded"
+                      loading="lazy"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <div class="slider-indicators">
+              <button
+                class="active global-color"
+                aria-label="Go to slide"
+              ></button>
+              <button class="global-color" aria-label="Go to slide"></button>
+              <button class="global-color" aria-label="Go to slide"></button>
+            </div>
+          </div>
+          <!-- Swiffy Slider Carousel end -->
+        </div>
+      </div>
+    </section>
+    <!-- This is Banner or Hero section end -->
 
     <!-- Bootstrap JS CDN Link -->
     <script

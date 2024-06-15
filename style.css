@@ -24,4 +24,45 @@ body{
     font-weight: 600;
     padding: 18px 45px;
 }
+
+.global-color{
+    background-color: var(--main-btn-color);
+}
 /* Global or Common CSS end */
+
+/* Banner or Hero section CSS */
+.banner-left{
+    margin-left: 100px;
+    & h1{
+        font-family: "Raleway", sans-serif;
+        font-size: 74px;
+        font-weight: 900;
+        color: #111111;
+        & span{
+            color: var(--main-btn-color);
+        }
+        & hr{
+            border-color: var(--main-btn-color) !important;
+            border-radius: 70px;
+            width: 156px !important;
+            height: 25px;
+            background-color: var(--main-btn-color);
+        }
+    }
+    & p {
+        font-family: "Quicksand", sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #333333;
+    }
+}
+.slider-indicators button {
+    background-color: var(--main-btn-color);
+    width: 20px !important;
+    height: 20px !important;
+    margin: 5px;
+  }
+
+  .slider-indicators button.active {
+    background-color: var(--main-btn-color);
+  }
