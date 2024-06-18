@@ -135,3 +135,36 @@ body {
 /* .grid-container {
   gap: 10px;
 } */
+
+
+
+/* jdfskfjsdljf */
+
+.portfolio-container h2 {
+  font-size: 2.5rem;
+}
+
+.portfolio-container h2 span {
+  color: #8a47f6;
+}
+
+.portfolio-container nav a {
+  color: #000;
+  transition: color 0.3s;
+}
+
+.portfolio-container nav a:hover {
+  color: #8a47f6;
+}
+
+.portfolio-container .navbar-nav .nav-item {
+  margin: 0 20px;
+}
+
+.portfolio-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
