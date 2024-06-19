@@ -108,7 +108,7 @@ body {
 /* Our Portfolio section CSS */
 .portfolio-container{
   background-image: url('./images/Portfolio-bg-1.png'), url('./images/Portfolio-bg-2.png');
-  background-position: 100% -10%, 0% 110%;
+  background-position: 100% -10%, 0% 103%;
   background-repeat: no-repeat, no-repeat;
   & h2{
     font-family: "Raleway", sans-serif;
@@ -127,44 +127,45 @@ body {
 }
 
 
-/* .img-thumbnailf {
-  border: none;
-  border-radius: 15px;
-  object-fit: cover;
-} */
-/* .grid-container {
-  gap: 10px;
-} */
 
-
-
-/* jdfskfjsdljf */
-
-.portfolio-container h2 {
-  font-size: 2.5rem;
-}
-
-.portfolio-container h2 span {
-  color: #8a47f6;
-}
-
-.portfolio-container nav a {
-  color: #000;
-  transition: color 0.3s;
-}
-
-.portfolio-container nav a:hover {
-  color: #8a47f6;
-}
-
-.portfolio-container .navbar-nav .nav-item {
-  margin: 0 20px;
-}
-
+/* Our Portfolio section CSS */
 .portfolio-container img {
   width: 100%;
   height: auto;
   object-fit: cover;
   margin-bottom: 1rem;
   border-radius: 10px;
+}
+
+/* Prices section CSS */
+.prices-container {
+  background-image: url(./images/Portfolio-bg-1.png);
+  background-position: 100% 890%;
+  background-repeat: no-repeat;
+  padding-bottom: 160px;
+ & h2{
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+ }
+}
+
+
+.card-body{
+  border: none;
+  & h5{
+    font-family: "Raleway", sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+  }
+  & p{
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  & h2{
+    font-family: "Raleway", sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+  }
 }
