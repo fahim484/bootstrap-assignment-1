@@ -6,8 +6,7 @@
 }
 
 body {
-  background-image: url(./images/banner-bg-2.png),
-  url(./images/banner-bg-1.png);
+  background-image: url(./images/banner-bg-2.png), url(./images/banner-bg-1.png);
   background-repeat: no-repeat;
 }
 
@@ -106,27 +105,26 @@ body {
 }
 
 /* Our Portfolio section CSS */
-.portfolio-container{
-  background-image: url('./images/Portfolio-bg-1.png'), url('./images/Portfolio-bg-2.png');
+.portfolio-container {
+  background-image: url("./images/Portfolio-bg-1.png"),
+    url("./images/Portfolio-bg-2.png");
   background-position: 100% -10%, 0% 103%;
   background-repeat: no-repeat, no-repeat;
-  & h2{
+  & h2 {
     font-family: "Raleway", sans-serif;
     font-size: 52px;
     font-weight: 900;
-    & span{
+    & span {
       color: var(--main-btn-color);
     }
   }
-  & ul{
+  & ul {
     font-family: "Quicksand", sans-serif;
     font-size: 23px;
     font-weight: 500;
     color: #333333;
   }
 }
-
-
 
 /* Our Portfolio section CSS */
 .portfolio-container img {
@@ -143,29 +141,65 @@ body {
   background-position: 100% 890%;
   background-repeat: no-repeat;
   padding-bottom: 160px;
- & h2{
-  font-family: "Raleway", sans-serif;
-  font-size: 50px;
-  font-weight: 900;
- }
+  & h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+  }
 }
 
-
-.card-body{
+.card-body {
   border: none;
-  & h5{
+  & h5 {
     font-family: "Raleway", sans-serif;
     font-size: 25px;
     font-weight: 900;
   }
-  & p{
+  & p {
     font-family: "Quicksand", sans-serif;
     font-size: 18px;
     font-weight: 400;
   }
-  & h2{
+  & h2 {
     font-family: "Raleway", sans-serif;
     font-size: 50px;
     font-weight: 900;
+  }
+}
+
+/* Testimonials section CSS */
+.slider-container {
+  & .card {
+    background-color: #f4edff;
+    & .card-body {
+      & p {
+        font-family: "Quicksand", sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        color: #111111;
+      }
+      & h2 {
+        font-family: "Raleway", sans-serif;
+        font-size: 50px;
+        font-weight: 900;
+        color: #111111;
+      }
+      & p {
+        font-family: "Quicksand", sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        color: #333333;
+      }
+      & .testimonials-info {
+        background-color: #e5d5fe;
+        cursor: pointer;
+        & h5 {
+          font-family: "Quicksand", sans-serif;
+          font-size: 22px;
+          color: #333333;
+          font-weight: 500;
+        }
+      }
+    }
   }
 }
