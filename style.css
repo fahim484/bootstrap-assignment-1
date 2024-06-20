@@ -256,3 +256,13 @@ body {
     cursor: pointer;
   }
 }
+
+/* Footer section CSS */
+footer{
+  background-color: #222222;
+  padding: 20px;
+  & img{
+    cursor: pointer;
+  }
+}
+
