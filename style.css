@@ -58,6 +58,18 @@ body {
     color: #333333;
   }
 }
+
+.banner-right{
+  & ul{
+    width: 900px;
+
+    & li{
+      .img-card{
+        width: 713px;
+      }
+    }
+  }
+}
 .slider-indicators {
   margin-right: 180px;
   & button {
@@ -104,6 +116,10 @@ body {
   }
 }
 
+.about-left{
+  margin-right: 100px;
+}
+
 /* Our Portfolio section CSS */
 .portfolio-container {
   background-image: url("./images/Portfolio-bg-1.png"),
@@ -125,8 +141,6 @@ body {
     color: #333333;
   }
 }
-
-/* Our Portfolio section CSS */
 .portfolio-container img {
   width: 100%;
   height: auto;
